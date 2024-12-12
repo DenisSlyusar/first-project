@@ -1,9 +1,192 @@
-<html>
+<!DOCTYPE html>
+<html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>Главная страница</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project\font\font.css" />
+    <link rel="stylesheet" href="\project\style\style.css" />
+    <title>Оно тебе надо</title>
   </head>
+
   <body>
-    Привет медвед
+    <header class="header content-section">
+      <div class="header_div">
+        <div class="navigation_grid">
+          <nav>
+            <ul class="first_ul">
+              <li class="first_li">главная</li>
+              <li><a href="#lots_go">посмотреть лоты</a></li>
+              <li><a href="#about_auc_go">об аукционе</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="image_header_grid">
+          <img src="\project\img\overlay.png" alt="Оно тебе надо" />
+        </div>
+        <div class="info_grid">
+          <ul class="second_ul">
+            <li><a href="tel:+9 999 555 555">+9 999 555 5555</a></li>
+            <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+            <li>
+              <address class="new_address">
+                наб. Принсенграхт 263- <br />
+                265, Амстердам
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="cover content-section">
+        <div class="margin_cover">
+          <h1 class="name_project">
+            <div class="all_span_h1">
+              <span class="span_h1 text-left"
+                >О<span class="one_letter">Н</span>О</span
+              >
+              <span class="span_h1 text-center"
+                >ТЕ<span class="one_letter">Б</span>Е</span
+              >
+              <span class="span_h1 text-right"
+                ><span class="one_letter">Н</span>АДО</span
+              >
+            </div>
+          </h1>
+          <div class="bet_auc">
+            <span class="auction">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</span>
+            <a class="not_decoration_button" href="#">
+              <div class="button_bet">
+              <p class="place_a_bet">СДЕЛАТЬ СТАВКУ</p>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lots content-section">
+        <div class="margin_lots">
+          <h2 id="lots_go" class="h2_lots">ЛОТЫ</h2>
+          <div class="photo_all">
+            <div class="photo1 photo_style">
+              <div class="margin_text_on_photo_1 text_photo_width">
+                <h3 class="grid_h3_photo_1">
+                  ФИЛЬМ РЕЖИССЕРА,<br />
+                  КОТОРЫЙ БРОСИЛ<br />
+                  КИНОШКОЛУ
+                </h3>
+                <p class="grid_p_photo_1"> 
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </div>
+            </div>
+            <div class="photo2 photo_style">
+              <div class="margin_text_on_photo_2 text_photo_width">
+                <h3 class="grid_h3_photo_2">
+                  КНИГА, ГДЕ ОПИСАН<br />
+                  ОДИН СКУЧНЫЙ ДЕНЬ<br />
+                  ИЗ ЖИЗНИ<br />
+                  РЕКЛАМНОГО АГЕНТА
+                </h3>
+                <p class="grid_p_photo_2">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </div>
+            </div>
+            <div class="photo3 photo_style">
+              <div class="margin_text_on_photo_3 text_photo_width">
+                <h3 class="grid_h3_photo_3">
+                  КАРТИНА, КОТОРУЮ<br />
+                  ПОВТОРИТ ДАЖЕ 5-<br />ЛЕТНИЙ СЫН<br />
+                  МАМИНОЙ ПОДРУГИ
+                </h3>
+                <p class="grid_p_photo_3">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из<br /> революционных работ Кандинского?
+                </p>
+              </div>
+            </div>
+          </div>
+          <p class="see_more"><a href="#">посмотреть больше</a></p>
+        </div>
+      </section>
+
+      <section class="about content-section">
+        <div class="margin_about">
+          <div class="black_image">
+            <img
+              class="center_image"
+              src="project\img\logo-white.png"
+              alt="Белый логотип Оно тебе надо"
+            />
+          </div>
+          <div class="all_text_about">
+            <div class="h3_text_about">
+              <h3 id="about_auc_go">ОБ АУКЦИОНЕ</h3>
+            </div>
+            <div class="text_font">
+              <div>
+                <p class="margin_text">
+                  Здесь вы не встретите очередное пафосное собрание невероятно
+                  дорогого антиквариата. Наши лоты вообще не должны были попасть
+                  ни на один аукцион. Потому что кому нужен дневник
+                  девочки-подростка или картина, которую может нарисовать даже
+                  ребёнок? Кому нужны все эти странные вещи, созданные
+                  любителями?
+                </p>
+              </div>
+              <div>
+                <p>
+                  Слишком сложные или, наоборот, слишком простые. Опережающие
+                  своё время. В пух и прах растерзанные критиками. Непринятые и
+                  непонятые. Когда-то они казались просто неудачными. Но,
+                  несмотря на критику, кажущуюся простоту или сложность, сейчас
+                  без этих лотов невозможно представить современную культуру.
+                  Когда в эти вещи не верил никто, продолжали верить их
+                  создатели. И сейчас эти лоты стали культовыми.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer content-section">
+      <div class="margin_footer">
+        <div class="footer_div">
+          <ul class="second_ul">
+            <li><a href="#">+9 999 555 5555</a></li>
+            <li><a href="#">info@sobaka.ge</a></li>
+            <li>
+              наб. Принсенграхт 263- <br />
+              265, Амстердам
+            </li>
+          </ul>
+        </div>
+        <div>
+          <nav class="navigation">
+            <ul class="footer_ul">
+              <li class="first_li">главная</li>
+              <li><a href="#lots_go">посмотреть лоты</a></li>
+              <li><a href="#about_auc_go">об аукционе</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="image_1">
+          <img src="project\img\socials.png" alt="каналы" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

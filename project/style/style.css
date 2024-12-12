@@ -1,0 +1,393 @@
+/* Общие стили */
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили для header */
+
+.content-section {
+  box-sizing: border-box;
+  margin: auto;
+  width: 1100px;
+}
+
+.header {
+  height: 293px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  padding: 92px 24px 96px 24px;
+}
+
+.header_div {
+  display: grid;
+  grid-template-columns: [start] 26.52px [line2] 391.48px [line3] 36px [line4] 148px [line5] 184px [line6] 240.52px [line7] 25.48px [end];
+  height: 100%;
+}
+
+.navigation_grid {
+  display: grid;
+  grid-column-start: line2;
+  grid-column-end: line3;
+  height: 22px;
+}
+
+.first_ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: circle;
+  gap: 30px;
+}
+
+.first_li {
+  list-style-type: none;
+}
+
+.image_header_grid {
+  display: grid;
+  grid-column-start: line4;
+  grid-column-end: line5;
+}
+
+.info_grid {
+  display: grid;
+  grid-column-start: line6;
+  grid-column-end: line7;
+  height: 98px;
+}
+
+.second_ul {
+  list-style-type: none;
+}
+
+.new_address {
+  font-style: normal;
+}
+
+/* Стили для cover */
+
+.cover {
+  height: 936px;
+  padding-bottom: 179;
+}
+
+.margin_cover {
+  height: 757px;
+  background-color: rgb(0 0 0 / 60%);
+  background-blend-mode: overlay;
+  background-image: url(../img/lotus-flower.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 100% 100%;
+}
+
+.name_project {
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  color: white;
+  height: 520px;
+  padding-bottom: 135px;
+}
+
+.all_span_h1 {
+  height: 355px;
+  width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 165px;
+}
+
+.span_h1 {
+  display: block;
+}
+
+.one_letter {
+  letter-spacing: 56px;
+}
+
+.text-left {
+  letter-spacing: 28px;
+  padding-bottom: 10px;
+}
+
+.text-center {
+  padding-left: 286px;
+  letter-spacing: 28px;
+  padding-bottom: 10px;
+}
+
+.text-right {
+  padding-left: 583px;
+  letter-spacing: 28px;
+}
+
+.bet_auc {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 51px;
+}
+
+.auction {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-left: 78px;
+  padding-right: 79px;
+  word-spacing: 18px;
+  padding-left: 78px;
+}
+.not_decoration_button {
+  text-decoration: none;
+  color: white;
+}
+.button_bet {
+  width: 256px;
+  height: 51px;
+  padding-right: 50px;
+}
+
+.place_a_bet {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  border: 1px solid white;
+  width: 256px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стили для lots */
+
+.lots {
+  height: 838px;
+  padding-bottom: 146;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.margin_lots {
+  width: 1052;
+  height: 692;
+}
+
+.h2_lots {
+  margin-bottom: 27px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  font-family: "Raleway", sans-serif;
+}
+
+.photo_all {
+  display: flex;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.photo_style {
+  display: grid;
+  justify-items: center;
+}
+
+.text_photo_width {
+  width: 254px;
+}
+
+.photo_all .photo_style h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: underline;
+}
+
+.photo_all .photo_style p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.margin_text_on_photo_1 {
+  display: grid;
+  grid-template-rows: [start] 51px [line2] 82px [line3] 238px [line4] 144px [line5] 48px [end];
+}
+
+.grid_h3_photo_1 {
+  display: grid;
+  grid-row-start: line2;
+  grid-row-end: line3;
+}
+
+.grid_p_photo_1 {
+  display: grid;
+  grid-row-start: line4;
+  grid-row-end: line5;
+}
+
+.margin_text_on_photo_2 {
+  display: grid;
+  grid-template-rows: [start] 51px [line2] 110px [line3] 360px [line4] 48px [end];
+}
+
+.grid_h3_photo_2 {
+  display: grid;
+  grid-row-start: line2;
+  grid-row-end: line3;
+}
+
+.grid_p_photo_2 {
+  display: grid;
+  grid-row-start: line3;
+  grid-row-end: line4;
+}
+
+.margin_text_on_photo_3 {
+  display: grid;
+  grid-template-rows: [start] 51px [line2] 110px [line3] 90px [line4] 264px [line5] 48px [end];
+}
+
+.grid_h3_photo_3 {
+  display: grid;
+  grid-row-start: line2;
+  grid-row-end: line3;
+}
+
+.grid_p_photo_3 {
+  display: grid;
+  grid-row-start: line4;
+  grid-row-end: line5;
+}
+
+.photo1 {
+  width: 334px;
+  height: 563px;
+  background-color: rgb(0 0 0 / 60%);
+  background-blend-mode: overlay;
+  background-image: url(../img/photo_3.png);
+}
+
+.photo2 {
+  width: 334px;
+  height: 563px;
+  background-color: rgb(0 0 0 / 60%);
+  background-blend-mode: overlay;
+  background-image: url(../img/photo_2.png);
+}
+
+.photo3 {
+  width: 334px;
+  height: 563px;
+  background-color: rgb(0 0 0 / 60%);
+  background-blend-mode: overlay;
+  background-image: url(../img/photo.png);
+}
+
+.see_more {
+  margin-left: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+/* Стили для about */
+
+.about {
+  height: 775px;
+  padding-bottom: 180px;
+}
+
+.margin_about {
+  height: 595px;
+  width: 1052px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+}
+
+.black_image {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.all_text_about {
+  display: flex;
+  flex-direction: column;
+  width: 693px;
+  height: 449px;
+  margin-top: 133px;
+  margin-left: 72px;
+}
+
+.h3_text_about {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 100px;
+}
+
+.text_font {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.margin_text {
+  margin-bottom: 24px;
+}
+
+/* Стили для footer */
+
+.footer {
+  height: 186px;
+  padding-bottom: 88px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.margin_footer {
+  width: 1000px;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_div {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer_ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
